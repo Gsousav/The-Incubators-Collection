@@ -4,16 +4,19 @@
   --green: #6e9075;
 }
 
-.navbar-container .navbar ul {
+.navbar ul{
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  padding: 16px 0;
 }
 
-.navbar-container {
-  position: fixed;
-  left: 0;
+.navbar {
+  position: sticky;
   top: 0;
-  width: 100%;
+  left: 0;
+  height: 50px;
   background-color: var(--platinum);
 }
 
