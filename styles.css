@@ -55,7 +55,7 @@
   color: var(--platinum);
   font-family: Dosis, sans-serif;
   text-align: center;
-  transition: all 0.2s;
+  transition: all 0.4s;
 }
 
 .footer-wrapper a:hover {
