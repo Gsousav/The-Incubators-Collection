@@ -1,0 +1,35 @@
+:root {
+  --platinum: #d8dbe2;
+  --black: #000103;
+  --green: #6e9075;
+}
+
+.navbar-container .navbar ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar-container {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: var(--platinum);
+}
+
+.navbar ul li {
+  font-size: 1.2em;
+  font-family: Dosis, sans-serif;
+  font-weight: 700;
+  list-style: none;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: var(--black);
+  transition: color 0.15s;
+}
+
+.navbar ul li a:hover {
+  color: var(--green);
+}
