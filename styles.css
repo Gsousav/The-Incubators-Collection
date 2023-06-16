@@ -9,14 +9,14 @@
   justify-content: space-around;
   align-items: center;
   margin: 0;
-  padding: 16px 0;
+  padding: 30px 0;
 }
 
 .navbar {
   position: sticky;
   top: 0;
   left: 0;
-  height: 50px;
+  height: 84px;
   background-color: var(--platinum);
 }
 
