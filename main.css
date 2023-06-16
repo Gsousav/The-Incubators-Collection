@@ -55,11 +55,16 @@ h1, h2 {
   height: 400px;
   width: 250px;
   border-radius: 20px;
+  transform: translateX(0px);
+  transition: 0.5s all;
+  z-index: -1;
 }
 
 .popular-reads-container img:hover{
   cursor: pointer;
+  box-shadow: 6px 6px 40px 10px gray;
 }
+
 
 .grid-of-books{
   display: grid;
