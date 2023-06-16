@@ -2,6 +2,7 @@
   --platinum: #d8dbe2;
   --black: #000103;
   --green: #6e9075;
+  --blue: #36558f;
 }
 
 .navbar ul{
@@ -17,7 +18,7 @@
   top: 0;
   left: 0;
   height: 84px;
-  background-color: var(--platinum);
+  background-color: var(--blue);
 }
 
 .navbar ul li {
@@ -29,7 +30,7 @@
 
 .navbar ul li a {
   text-decoration: none;
-  color: var(--black);
+  color: var(--platinum);
   transition: color 0.15s;
 }
 
