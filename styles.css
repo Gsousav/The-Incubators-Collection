@@ -39,3 +39,26 @@
 .navbar ul li a:hover {
   text-decoration: underline;
 }
+
+
+.footer-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  height: 100px;
+  background-color: var(--black);
+}
+
+.footer-wrapper a {
+  text-decoration: none;
+  color: var(--platinum);
+  font-family: Dosis, sans-serif;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.footer-wrapper a:hover {
+  transform: translateX(10px);
+  transform: translateY(-5px);
+}
