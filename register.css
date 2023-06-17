@@ -94,6 +94,7 @@ input[type="checkbox"] {
 .terms-wrapper a {
   text-decoration: none;
   color: var(--brown);
+  font-weight: 700;
   transition: all 0.25s;
 }
 
