@@ -19,6 +19,12 @@ legend, fieldset, input, select, button{
   border: 2px solid var(--black);
 }
 
+legend {
+  margin: auto;
+  padding: 2.5px 10px;
+  font-weight: 700;
+}
+
 input[type="email"] {
   width: 415px;
   height: 30px;
@@ -33,6 +39,8 @@ select {
   width: 207.5px;
   height: 30px;
   border-radius: 0;
+  text-align: center;
+  font-size: 0.7em;
 }
 
 fieldset {
@@ -74,6 +82,7 @@ input[type="checkbox"] {
 
 .receive-offers-wrapper, .terms-wrapper {
   display: flex;
+  gap: 10px;
 }
 
 .terms-wrapper a {
@@ -96,10 +105,14 @@ button {
   width: 207.5px;
   height: 30px;
   background-color: #fff;
-  transition: all 0.3s;
+  transition: all 0.5s;
+  font-size: 0.7em;
 }
 
 button:hover {
   cursor: pointer;
-  border: 5px solid var(--black);
+  font-size: 0.9em;
+  height: 35px;
+  background-color: var(--black);
+  color: var(--platinum);
 }
