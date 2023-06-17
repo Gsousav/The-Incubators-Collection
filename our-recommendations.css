@@ -1,0 +1,40 @@
+:root {
+  --platinum: #d8dbe2;
+  --black: #000103;
+  --green: #6e9075;
+  --blue: #36558f;
+  --brown: #7a542e;
+}
+
+img {
+  transform: translateX(0px);
+  transition: 0.5s all;
+  object-fit: cover;
+  height: 400px;
+  width: 250px;
+  border-radius: 20px;
+}
+
+img:hover{
+  cursor: pointer;
+  box-shadow: 6px 6px 40px 10px gray;
+}
+
+.body-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--platinum);
+}
+
+.title-wrapper {
+  text-align: center;
+}
+
+.book-cover-image-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3 , 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 30px;
+  margin-bottom: 30px;
+}
