@@ -31,22 +31,24 @@
       <fieldset>
         <legend>Register</legend>
 
-        <div>
-          <label for="firstName">First Name:</label>
-          <input type="text" name="first-name-input" id="firstName">
+        <div class="name-wrapper">
+          <div class="firstname-wrapper">
+            <label for="firstName">First Name:</label>
+            <input type="text" name="first-name-input" id="firstName">
+          </div>
+
+          <div class="lastname-wrapper">
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="last-name-input">
+          </div>
         </div>
 
-        <div>
-          <label for="lastName">Last Name:</label>
-          <input type="text" id="lastName" name="last-name-input">
-        </div>
-
-        <div>
+        <div class="email-wrapper">
           <label for="email">Email:</label>
           <input type="email" id="email" name="email-input" required>
         </div>
 
-        <div>
+        <div class="region-wrapper">
           <label for="region">Region:</label>
           <select name="region-dropdown" id="region" required>
             <option value="africa">Africa</option>
@@ -59,16 +61,30 @@
           </select>
         </div>
 
-        <div>
-          <label for="receive-offers">I want to receive the best offers available for the books posted</label>
-          <input type="checkbox" id="receive-offers" name="receive-offers-checkbox">
+        <div class="checkbox-wrapper">
+          <div class="receive-offers-wrapper">
+            <input type="checkbox" id="receive-offers" name="receive-offers-checkbox">
+            <label for="receive-offers">I want to receive the best offers available for the books posted</label>
+          </div>
+
+          <div class="terms-wrapper">
+            <input type="checkbox" id="terms-and-conditions" name="terms-and-conditions-checkbox">
+            <label for="terms-and-conditions">I accept the <a href="">terms and conditions</a></label>
+          </div>
         </div>
 
-        <div>
-          <label for="terms-and-conditions">I accept the terms and conditions</label>
-          <input type="checkbox" id="terms-and-conditions" name="terms-and-conditions-checkbox">
+        <div class="button-wrapper">
+          <button type="submit">Register</button>
         </div>
 
       </fieldset>
     </form>
+
+    <footer>
+      <div class="footer-wrapper">
+        <a href="https://github.com/Gsousav" target="_blank"><p>Github</p><i class="fa-brands fa-github fa-2x"></i></a>
+        <a href="https://www.linkedin.com/in/gabriel-sousa-v/" target="_blank"><p>Linkedin</p><i class="fa-brands fa-linkedin-in fa-2x"></i></a>
+        <a href="mailto:gssousav@gmail.com" target="_blank"><p>Email</p><i class="fa-solid fa-envelope fa-2x"></i></a>
+      </div>
+    </footer>
   </body>
