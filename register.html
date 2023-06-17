@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The incubator's collection</title>
+  <link rel="stylesheet" href="register.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;700&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/e96e67a3b7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="heading">
+    <i class="fa-solid fa-book fa-2x"></i>
+    <h1>The Incubator's Collection</h1>
+  </div>
+
+    <nav class="navbar">
+      <ul>
+        <li><a href="main.html">Main</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="useful-resources.html">Useful Resources</a></li>
+        <li><a href="our-collection.html">Our collection</a></li>
+      </ul>
+    </nav>
+
+    <form action="https://my.appacademy.io/" method="post">
+      <fieldset>
+        <legend>Register</legend>
+
+        <div>
+          <label for="firstName">First Name:</label>
+          <input type="text" name="first-name-input" id="firstName">
+        </div>
+
+        <div>
+          <label for="lastName">Last Name:</label>
+          <input type="text" id="lastName" name="last-name-input">
+        </div>
+
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email-input" required>
+        </div>
+
+        <div>
+          <label for="region">Region:</label>
+          <select name="region-dropdown" id="region" required>
+            <option value="africa">Africa</option>
+            <option value="asia">Asia</option>
+            <option value="central-america">Central America</option>
+            <option value="europe">Europe</option>
+            <option value="north-america">North America</option>
+            <option value="oceania">Oceania</option>
+            <option value="south-america">South America</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="receive-offers">I want to receive the best offers available for the books posted</label>
+          <input type="checkbox" id="receive-offers" name="receive-offers-checkbox">
+        </div>
+
+        <div>
+          <label for="terms-and-conditions">I accept the terms and conditions</label>
+          <input type="checkbox" id="terms-and-conditions" name="terms-and-conditions-checkbox">
+        </div>
+
+      </fieldset>
+    </form>
+  </body>
